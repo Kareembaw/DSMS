@@ -63,7 +63,7 @@ if (isset($_POST['join']) && !empty($_POST['join'])) {
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
                 <!-- Title -->
-                <span class="mdl-layout-title"> SCHOOL MANAGEMENT SYSTEM</span>
+                <span class="mdl-layout-title"> DRIVING SCHOOL MANAGEMENT SYSTEM</span>
                 <!-- Add spacer, to align navigation to the right -->
                 <div class="mdl-layout-spacer"></div>
                 <!-- Navigation. We hide it in small screens. -->
@@ -134,6 +134,7 @@ if (isset($_POST['join']) && !empty($_POST['join'])) {
                 $resultInsName = $stmt1->fetch(PDO::FETCH_ASSOC);
 
                 ?>
+                 <!-- checkbox -->
                             <tr>
                                 <td class="mdl-data-table__cell--non-numeric"><?= $TT['timetableID'] ?></td>
                                 <td class="mdl-data-table__cell--non-numeric"><?= $resultInsName['instructorName'] ?>

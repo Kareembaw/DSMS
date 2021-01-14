@@ -105,6 +105,13 @@ try{
                 <td style="text-align: right;padding-right: 20px;">Instructor Name :</td>
                
               </tr>
+               <td>
+                  <select style="width: 400px;" name="instructorName">
+                    <?php foreach ($resultDropdown as $output) { ?>
+                    <option value="<?= $output['instructorID']?>"><?php echo $output['instructorName'] ?></option>
+                    <?php }?>
+                  </select>
+                </td>
               <tr>
                 <td></td>
                 <input type="hidden" name="userID" value="<?php echo $data['userID']?>" />

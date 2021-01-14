@@ -134,6 +134,7 @@ if (isset($_POST['join']) && !empty($_POST['join'])) {
                 $resultInsName = $stmt1->fetch(PDO::FETCH_ASSOC);
 
                 ?>
+                // checkbox
                             <tr>
                                 <td class="mdl-data-table__cell--non-numeric"><?= $TT['timetableID'] ?></td>
                                 <td class="mdl-data-table__cell--non-numeric"><?= $resultInsName['instructorName'] ?>

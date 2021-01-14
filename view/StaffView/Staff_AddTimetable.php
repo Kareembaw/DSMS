@@ -87,19 +87,19 @@ try{
               </tr>
               <tr>
                 <td style="text-align: right;padding-right: 20px;">Timetable Details :</td>
-                <td><input style="width: 400px;" type="text" id="timetableDetails" name="timetableDetails" maxlength="50" required /></td>
+                <td><input style="width: 400px;" type="text" id="timetableDetails" name="timetableDetails" maxlength="50"  /></td>
               </tr>
               <tr>
                 <td style="text-align: right;padding-right: 20px;">Date :</td>
-                <td><input style="width: 400px;margin-top: 5px;" type="date" id="date" name="date" maxlength="50" required /></td>
+                <td><input style="width: 400px;margin-top: 5px;" type="date" id="date" name="date" maxlength="50"  /></td>
               </tr>
               <tr>
                 <td style="text-align: right;padding-right: 20px;">Time From :</td>
-                <td><input style="width: 400px;margin-top: 5px;" type="time" id="timeFrom" name="timeFrom" maxlength="50" required /></td>
+                <td><input style="width: 400px;margin-top: 5px;" type="time" id="timeFrom" name="timeFrom" maxlength="50"  /></td>
               </tr>
               <tr>
                 <td style="text-align: right;padding-right: 20px;">Time To :</td>
-                <td><input style="width: 400px;margin-top: 5px;" type="time" id="timeTo" name="timeTo" maxlength="50" required /></td>
+                <td><input style="width: 400px;margin-top: 5px;" type="time" id="timeTo" name="timeTo" maxlength="50"  /></td>
               </tr>
               <tr>
                 <td style="text-align: right;padding-right: 20px;">Instructor Name :</td>

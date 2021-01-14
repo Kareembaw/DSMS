@@ -15,7 +15,7 @@ include '../../model/UserModel/LoginModel.php';
 <?php  $dbLogin->login(); ?>
 <body  style="background-image: url('../../img/1.jpg');">
 
-	<p style="font-family: 'Yellowtail', cursive; font-size: 90px; text-align: center; margin-top: 100px;">Driving School Management Application</p>
+	<p style="font-family: 'Yellowtail', cursive; font-size: 90px; text-align: center; margin-top: 100px;">Driving School Management System</p>
 
 	<div class="col-md-4" style="margin: auto">
 		<div class="login-panel panel panel-default" >

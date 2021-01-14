@@ -103,13 +103,7 @@ try{
               </tr>
               <tr>
                 <td style="text-align: right;padding-right: 20px;">Instructor Name :</td>
-                <td>
-                  <select style="width: 400px;" name="instructorName">
-                    <?php foreach ($resultDropdown as $output) { ?>
-                    <option value="<?= $output['instructorID']?>"><?php echo $output['instructorName'] ?></option>
-                    <?php }?>
-                  </select>
-                </td>
+               
               </tr>
               <tr>
                 <td></td>
